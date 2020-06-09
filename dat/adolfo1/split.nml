@@ -1,0 +1,28 @@
+&legacymode
+	legacy_mode = T
+/
+&control
+	debug = f
+	nprocx = 5
+	nprocr = 5
+	nproct = 1
+	sort_ord = 1
+	coordinates = 1
+	hosten = .false.
+	dump_sten = .false.
+	dump_plt = .true.
+	dump_surf = .false.
+/
+&filein
+	meshfile = 'adolfo1.mesh'
+	c2nfile = 'c2n.def'
+	stenfile = 'vol.sten'
+/
+&fileout
+	meshfile_out = 'adolfo1.mesh'
+	stenfile_out = 'vol.sten'
+	c2nfile_out = 'c2n.def'
+	l2gfile = 'loc2glob.def'
+	pltfile_out = 'volp.plt'
+/
+

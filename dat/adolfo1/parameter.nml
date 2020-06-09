@@ -1,0 +1,21 @@
+&GLOBAL
+ ECHO=T,
+ DUMP_PREP=T,
+ DUMP_DEBUG=F,
+ /
+&FILENAME
+ FILEUGRID="csim.ugrid                                                   ",
+ FILEMESH="adolfo1.mesh                                                ",
+ FILEPLT="adolfo1.plt                                                  ",
+ /
+&PREPLIST
+ POINTWISE=F,
+ PTOL1=  1.0000000000000001E-08,
+ PTOL2=  1.0000000000000001E-08,
+ RADIAL=T,
+ ANGLE=  2.0000000000000000,
+ DY=  0.0000000000000000     ,
+ DX=  0.0000000000000000     ,
+ DZ=  0.0000000000000000     ,
+ SCALE=  1.0000000000000000     ,
+ /

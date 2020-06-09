@@ -1,0 +1,21 @@
+ &GLOBAL
+ ECHO =  T,
+ DUMP_PREP =  T,
+ DUMP_DEBUG =  F,
+ /
+ &FILENAME
+ FILEUGRID = csim.ugrid                                                       ,
+ FILEMESH = vol.mesh                                                        ,
+ FILEPLT = vol.plt                                                         ,
+ /
+ &PREPLIST
+ POINTWISE =  F,
+ PTOL1 =   1.000000000000000E-005,
+ PTOL2 =   1.000000000000000E-005,
+ RADIAL =  T,
+ ANGLE =   2.000000000000000,
+ DY =   0.000000000000000,
+ DX =   0.000000000000000,
+ DZ =   0.000000000000000,
+ SCALE =   1.00000000000000,
+ /

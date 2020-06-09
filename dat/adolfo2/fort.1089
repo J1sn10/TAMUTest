@@ -1,0 +1,5 @@
+ is_edge_on_procalloc_on_proc_arrays    14743050
+ is_face_on_procalloc_on_proc_arrays    13921300
+ is_cell_on_procalloc_on_proc_arrays     4371000
+ is_bface_on_procalloc_on_proc_arrays     1616600
+ node_is_pnodecreate_parallel_nodelist     5192775

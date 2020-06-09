@@ -1,0 +1,21 @@
+$input_data
+  r1   = 61.646d0  ! radius
+  rt   = 1.016d0
+  l1   = 30.0736d0
+  dbr  = 0.18d0
+  twit = 0.254
+  tad  = 15.d0
+  tdpt = 4.293d0
+  i1   = 2
+  i21  = 2
+  i22  = 2
+  i3   = 2
+  i4   = 2
+  l5   = 30.0736d0
+  i5   = 2
+  ntee = 1
+  angle= 2.d0
+  rdown= 57.15d0
+  jmax = 3
+  kmax = 2
+$END
