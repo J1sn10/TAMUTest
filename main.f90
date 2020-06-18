@@ -5,6 +5,7 @@ program sealmesh
     ! pgc - 4/29/20
     implicit none
     !-----------------------------------------------------------------------------
+    call system("mkdir output")
     call initia
     call alloc
     call upbndry

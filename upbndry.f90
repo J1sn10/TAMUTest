@@ -109,7 +109,7 @@ subroutine upbndry
      stop 'Terminated in upbndry'
   end if
 
-  open(1, file='upbndry.dat')
+  open(1, file='output/upbndry.dat')
   do i = 1, ii
      write(1,*) x(i,jmax,1), y(i,jmax,1)
   end do

@@ -54,7 +54,7 @@ subroutine grdgen
   if (status /= 0) stop 'failure to deallocate memory in grdgen'
 
   ! 2D Grid written in Plot3D format
-  open (8, file='slice.x') ! Plot3D format data
+  open (8, file='output/slice.x') ! Plot3D format data
   write(8,*) imax, jmax
   write(8,*) ((x(i,j,1), i=1,imax), j=1,jmax), &
              ((y(i,j,1), i=1,imax), j=1,jmax)
@@ -91,7 +91,7 @@ subroutine grdgen
   end do
 
   ! 3D Grid written in Plot3D format
-  open (8, file='sector.xyz') ! Plot3D format data
+  open (8, file='output/sector.xyz') ! Plot3D format data
   write(8,*) imax, jmax, kmax
   write(8,*) (((x(i,j,k), i=1,imax), j=1,jmax), k=1,kmax), &
              (((y(i,j,k), i=1,imax), j=1,jmax), k=1,kmax), &
@@ -99,7 +99,7 @@ subroutine grdgen
   close(8)
 
   ! Write ugrid file
-  ugridfilename = 'csim.ugrid'
+  ugridfilename = 'output/csim.ugrid'
   call ugrid(ugridfilename,imax,jmax,kmax,x,y,z)
 
 end subroutine grdgen

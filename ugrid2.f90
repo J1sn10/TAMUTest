@@ -177,7 +177,7 @@ SUBROUTINE ugrid(ugridfile,imax,jmax,kmax,x,y,z)
   CLOSE(1,STATUS='KEEP')
 
   ! Write a file with boundary face values
-  open(io, file='idbcs0.plt')
+  open(io, file='output/idbcs0.tec')
   write(io, *) "variables = x, y, z, bc"
   write(io, *) "zone f = fepoint, et = quadrilateral, n = " , nbface*4, &
        ", e = ", nbface
